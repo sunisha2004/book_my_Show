@@ -1,10 +1,3 @@
-@font-face {
-    font-family: "font1";
-    src: url("./fonts/Roboto\ \(1\)/Roboto-Regular.ttf");
-}
-
-
-
 
 * {
     box-sizing: border-box;
@@ -14,7 +7,6 @@
 
 body {
     background-color: #f9f9f9;
-    font-family: "font1";
 }
 
 nav {
@@ -37,6 +29,14 @@ nav {
     gap: 20px;
     background-color: white;
     font-weight: 100;
+}
+.martin img{
+    height: 400px;
+    width: 300px;
+
+}
+.leftside{
+    height: 550px;
 }
 
 .lside input {
@@ -114,7 +114,9 @@ a {
     font-size: 20px;
     color: rgb(122, 126, 126);
 }
-
+#bgimg{
+height: 550px;
+}
 .signin {
     color: rgb(255, 255, 255);
     background-color: rgb(248, 68, 100);
@@ -183,16 +185,23 @@ a {
 
 .mainside {
     display: flex;
-    background-image: linear-gradient(90deg, rgb(26, 26, 26) 24.97%, rgb(26, 26, 26) 38.3%, rgba(26, 26, 26, 0.04) 97.47%, rgb(26, 26, 26) 100%), url(https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/martin-et00328827-1677137256.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    height: 500px;
+    height: 550px;
     width: 92%;
     font-family: Roboto;
-}
 
+}
+.leftside{
+    width: 25%;
+    height: 100%;
+}
+.rightside {
+   width: 75%;
+   height: 100%;
+}
 .mai {
     width: 100%;
     display: flex;
@@ -201,10 +210,7 @@ a {
     background-color: rgb(26, 26, 26);
 }
 
-.rightside {
-    margin-left: 20px;
-    margin-top: 80px;
-}
+
 
 .rightside h2 {
     font-size: 40px;

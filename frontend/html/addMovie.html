@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Movie</title>
+    <link rel="stylesheet" href="../css/addmovie.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Add Movie</h1>
+        <form action="#" id="form">
+            <label for="movie-name">Movie Name:</label>
+            <input type="text" id="moviename" name="moviename">
+            <label for="duration">Duration:</label>
+            <input type="text" id="duration" name="duration">
+            <label for="category">Category:</label>
+            <input type="text" id="category" name="category">
+            <label for="Releasedate">Release Date:</label>
+            <input type="date" id="date" name="date">
+            <label for="language">Language:</label>
+            <input type="text" id="language" name="language">
+            <label for="rating">Rating:</label>
+            <input type="text" id="rating" name="rating">
+            <label for="screening">Screen:</label>
+            <input type="text" name="screen" id="screen">
+            <label for="certificate">Certificate:</label>
+            <input type="text" name="certificate" id="certificate">
+
+            <div class="ins-form">
+                <label for>Photo - card:</label>
+                <input type="file" name="cover" class="cover" id="cover" onchange="picture1()">
+            </div>
+            <div class="ins-img">
+                <img src="" alt="" id="card-div" height="200px">
+            </div>
+            <div class="ins-form">
+                <label for>Background Photo:</label>
+                <input type="file" name="banner" class="banner" id="banner" onchange="picture2()">
+            </div>
+            <div class="ins-img">
+                <img src="" alt="" id="bg-div" height="200px">
+            </div>
+
+            <div class="btn">
+                <button type="submit" class="add-movies-button" id="submit">Add Movie</button>
+            </div>
+
+
+        </form>
+    </div>
+    <script src="../js/addmovie.js"></script>
+</body>
+
+</html>
